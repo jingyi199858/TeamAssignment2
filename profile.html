@@ -10,6 +10,7 @@
   <link rel="icon" href="http://designshack.net/favicon.ico">
   <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -48,22 +49,6 @@
       </section>
     </div><!-- @end #content -->
   </div><!-- @end #w -->
-  <script type="text/javascript">
-    $(function() {
-      $('#profiletabs ul li a').on('click', function(e) {
-        e.preventDefault();
-        var newcontent = $(this).attr('href');
-        $('#profiletabs ul li a').removeClass('sel');
-        $(this).addClass('sel');
-        $('#content section').each(function() {
-          if (!$(this).hasClass('hidden')) {
-            $(this).addClass('hidden');
-          }
-        });
-        $(newcontent).removeClass('hidden');
-      });
-    });
-  </script>
   </body>
 
 </html>
