@@ -175,9 +175,7 @@ a:hover { text-decoration: underline; }
 
 #userphoto {
   display: block;
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 8px;
+  margin: 0 auto;
 }
 #userphoto img {
   display: block;
