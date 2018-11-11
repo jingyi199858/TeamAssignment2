@@ -6450,3 +6450,10 @@ html, body {
   background: rgba(255,255,255,0.5);
   margin: 0 0 10px 0;
 }
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
