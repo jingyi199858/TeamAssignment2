@@ -163,7 +163,7 @@ a:hover { text-decoration: underline; }
 }
 
 #content {
-  display: block;
+  display: grid;
   width: 100%;
   background: #fff;
   padding: 25px 20px;
@@ -331,6 +331,14 @@ input[type=submit]:hover {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+
+  #w {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 45px;
   }
 }
 
