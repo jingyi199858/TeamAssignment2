@@ -66,7 +66,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
 #topbar {
-  background: #4f4a41;
+  background: grey;
   padding: 10px 0 10px 0;
   text-align: center;
   height: 36px;
