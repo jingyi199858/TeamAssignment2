@@ -31,3 +31,13 @@ $(function() {
         $(newcontent).removeClass('hidden');
     });
 });
+
+function submitFeedback() {
+  var firstName = document.getElementById('fname').value;
+  var lastName = document.getElementById('lname').value;
+  var country = document.getElementById('country').value;
+  var subject = document.getElementById('subject').value;
+
+  console.log(`FROM: ${firstName} ${lastName} (${country})`)
+  console.log(`SUBJECT: ${subject}`)
+}
