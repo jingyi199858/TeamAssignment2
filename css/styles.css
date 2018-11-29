@@ -341,6 +341,21 @@ input[type=submit]:hover {
   }
 }
 
+@media screen and (max-width: 998px) and (min-width: 600px){
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #w {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+}
+
 
 /** clearfix **/
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
